@@ -32,6 +32,23 @@ class AboutUsPage extends StatelessWidget {
               style: TextStyle(fontSize: 16, height: 1.5),
             ),
             SizedBox(height: 20),
+            Text(
+              "What We Offer",
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 10),
+
+            Text(
+              "• University branded clothing\n"
+              "• Accessories and souvenirs\n"
+              "• Stationery and study supplies\n"
+              "• Exclusive student deals and discounts",
+              style: TextStyle(fontSize: 16, height: 1.6),
+            ),
+            SizedBox(height: 20),
 
           ],
         ),
