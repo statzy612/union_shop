@@ -15,7 +15,24 @@ class AboutUsPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Content will be added in later commits
+                        Text(
+              "About the Union Shop",
+              style: TextStyle(
+                fontSize: 26,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFF4d2963),
+              ),
+            ),
+            SizedBox(height: 20),
+
+            Text(
+              "The Union Shop provides a range of official University of Portsmouth merch, "
+              "clothing, stationery, and essentials. Our aim is to support students "
+              "while offering nice products that represent the university.",
+              style: TextStyle(fontSize: 16, height: 1.5),
+            ),
+            SizedBox(height: 20),
+
           ],
         ),
       ),
