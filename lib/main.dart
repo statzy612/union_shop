@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:union_shop/product_page.dart';
 import 'package:union_shop/about_us.dart';
+import 'package:union_shop/dummy_collection.dart'; // Import the new collection page
 
 void main() {
   runApp(const UnionShopApp());
@@ -109,7 +110,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const ProductPage()),
+                      builder: (context) => const DummyCollectionPage(title: 'All Products')), // Navigate to the new page
                 );
               },
               child: const Text('VIEW ALL PRODUCTS'),
