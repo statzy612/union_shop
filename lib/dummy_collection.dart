@@ -18,18 +18,12 @@ class DummyCollectionPage extends StatelessWidget {
   Widget build(BuildContext context) {
     // A list of sample products
     final products = [
-      ProductItem("Product 1", "£10.00",
-          "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"),
-      ProductItem("Product 2", "£12.00",
-          "https://www.shutterstock.com/search/purple-pencil-case?image_type=illustration&dd_referrer=https%3A%2F%2Fwww.google.com%2F"),
-      ProductItem("Product 3", "£15.00",
-          "https://images.unsplash.com/photo-1523381210434-271e8be1f52b"),
-      ProductItem("Product 4", "£18.00",
-          "https://images.unsplash.com/photo-1581655353564-df123a908a58"),
-      ProductItem("Product 5", "£20.00",
-          "https://images.unsplash.com/photo-1542219550-37153d387c5c"),
-      ProductItem("Product 6", "£22.00",
-          "https://images.unsplash.com/photo-1554568218-0f1715e72254"),
+      ProductItem("T-Shirt", "£10.00", "assets/images/tshirt.png"),
+      ProductItem("Cap", "£12.00", "assets/images/cap.png"),
+      ProductItem("Jogger", "£15.00", "assets/images/jogger.png"),
+      ProductItem("Black T-Shirt", "£18.00", "assets/images/black.png"),
+      ProductItem("T-Shirt", "£20.00", "assets/images/tshirt.png"),
+      ProductItem("Cap", "£22.00", "assets/images/cap.png"),
     ];
 
     return Scaffold(
@@ -56,7 +50,7 @@ class DummyCollectionPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Expanded(
-                  child: Image.network(
+                  child: Image.asset(
                     product.imageUrl,
                     fit: BoxFit.cover,
                   ),
