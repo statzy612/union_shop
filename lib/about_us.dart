@@ -44,7 +44,7 @@ class AboutUsPage extends StatelessWidget {
 
             Text(
               "• University branded clothing\n"
-              "• Accessories and souvenirs\n"
+              "• Accessories for support\n"
               "• Stationery and study supplies\n"
           
               "• Exclusive student deals and discounts",
