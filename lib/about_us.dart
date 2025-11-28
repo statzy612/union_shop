@@ -64,6 +64,22 @@ class AboutUsPage extends StatelessWidget {
               style: TextStyle(fontSize: 16, height: 1.5),
             ),
             SizedBox(height: 20),
+            Text(
+              "Location & Contact",
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 10),
+
+            Text(
+              "Students' Union Building\n"
+              "Cambridge Road, Portsmouth\n"
+              "PO1 2EF\n\n"
+              "Email: union.shop@port.ac.uk",
+              style: TextStyle(fontSize: 16, height: 1.5),
+            ),
 
           ],
         ),
