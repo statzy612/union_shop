@@ -49,6 +49,21 @@ class AboutUsPage extends StatelessWidget {
               style: TextStyle(fontSize: 16, height: 1.6),
             ),
             SizedBox(height: 20),
+            Text(
+              "Our Aim",
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 10),
+
+            Text(
+              "As part of the Students’ Union, all profits go directly back into supporting "
+              "student activities.",
+              style: TextStyle(fontSize: 16, height: 1.5),
+            ),
+            SizedBox(height: 20),
 
           ],
         ),
