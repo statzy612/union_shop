@@ -15,75 +15,7 @@ class AboutUsPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              "About the Union Shop",
-              style: TextStyle(
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF4d2963),
-              ),
-            ),
-            SizedBox(height: 20),
-
-            Text(
-              "The Union Shop provides a range of official University of Portsmouth merch, "
-              "clothing, stationery, and essentials. Our aim is to support students,"
-              "while offering nice products that representthe university.",
-              style: TextStyle(fontSize: 16, height: 1.5),
-            ),
-            SizedBox(height: 20),
-
-            Text(
-              "What We Offer",
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 10),
-
-            Text(
-              "• University branded clothing\n"
-              "• Accessories and souvenirs\n"
-              "• Stationery and study supplies\n"
-          
-              "• Exclusive student deals and discounts",
-              style: TextStyle(fontSize: 16, height: 1.6),
-            ),
-            SizedBox(height: 20),
-
-            Text(
-              "Our Purpose",
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 10),
-
-            Text(
-              "As part of the Students’ Union, all profits go directly back into supporting "
-              "student activities, .",
-              style: TextStyle(fontSize: 16, height: 1.5),
-            ),
-            SizedBox(height: 20),
-
-            Text(
-              "Location & Contact",
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-
-            SizedBox(height: 10),
-            Text(
-              "Students' Union Building\n"
-              "Cambridge Road, Portsmouth\n"
-              "PO1 2EF\n\n"
-              "Email: union.shop@port.ac.uk",
-              style: TextStyle(fontSize: 16, height: 1.5),
-            ),
+            // Content will be added in later commits
           ],
         ),
       ),
