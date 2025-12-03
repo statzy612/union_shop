@@ -39,6 +39,14 @@ class SaleCollection extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 20),
+              const Text(
+                "Sale Products",
+                style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ],
           ),
         ),
