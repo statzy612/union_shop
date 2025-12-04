@@ -103,6 +103,60 @@ class _SignupPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text("Signup Page Placeholder"));
+    return Padding(
+      padding: const EdgeInsets.all(24),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            "Create an Account",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 30),
+          const Text("Full Name"),
+          const SizedBox(height: 8),
+          TextField(
+            decoration: InputDecoration(
+              hintText: "Enter your full name",
+              border: OutlineInputBorder(),
+            ),
+          ),
+          const SizedBox(height: 20),
+          const Text("Email"),
+          const SizedBox(height: 8),
+          TextField(
+            decoration: InputDecoration(
+              hintText: "Enter your email",
+              border: OutlineInputBorder(),
+            ),
+          ),
+          const SizedBox(height: 20),
+          const Text("Password"),
+          const SizedBox(height: 8),
+          TextField(
+            obscureText: true,
+            decoration: InputDecoration(
+              hintText: "Create a password",
+              border: OutlineInputBorder(),
+            ),
+          ),
+          const SizedBox(height: 30),
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton(
+              onPressed: () {},
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF4d2963),
+                padding: const EdgeInsets.symmetric(vertical: 14),
+              ),
+              child: const Text("SIGN UP"),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
