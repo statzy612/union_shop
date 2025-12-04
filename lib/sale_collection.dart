@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:union_shop/about_us_page.dart';
 
 class SaleCollection extends StatelessWidget {
   const SaleCollection({super.key});
@@ -15,6 +16,17 @@ class SaleCollection extends StatelessWidget {
           style: TextStyle(letterSpacing: 1),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.info_outline),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AboutUsPage()),
+              );
+            },
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -72,7 +84,7 @@ class SaleCollection extends StatelessWidget {
                     title: "City Souvenir Magnet",
                     oldPrice: "£15.00",
                     newPrice: "£8.00",
-                    imageUrl: "assets/images/magnet.png",
+                    imageUrl: "assets/images/spinnaker.png",
                   ),
                 ],
               )

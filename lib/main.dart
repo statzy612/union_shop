@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:union_shop/product_page.dart';
-import 'package:union_shop/about_us.dart';
+import 'package:union_shop/about_us_page.dart';
+import 'package:union_shop/auth_page.dart';
 
 void main() {
   runApp(const UnionShopApp());
@@ -31,6 +32,15 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Come grab your essentials'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.person),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const AuthPage()),
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.info_outline),
             onPressed: () {
