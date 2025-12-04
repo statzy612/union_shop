@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:union_shop/sale_collection.dart';
+import 'package:union_shop/auth_page.dart';
 
 void main() {
   runApp(const UnionShopApp());
@@ -16,7 +16,7 @@ class UnionShopApp extends StatelessWidget {
         primaryColor: const Color.fromARGB(255, 128, 33, 243),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const SaleCollection(),
+      home: const AuthPage(),
     );
   }
 }
