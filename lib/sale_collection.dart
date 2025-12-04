@@ -117,7 +117,7 @@ class SaleProductCard extends StatelessWidget {
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
                         height: 150,
-                        color: Colors.grey[200],
+                        color: const Color.fromARGB(255, 137, 23, 137),
                         child: const Center(
                           child: Icon(Icons.broken_image, color: Colors.grey, size: 40),
                         ),
@@ -130,7 +130,7 @@ class SaleProductCard extends StatelessWidget {
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
                         height: 150,
-                        color: Colors.grey[200],
+                        color: const Color.fromARGB(255, 137, 23, 137),
                         child: const Center(
                           child: Icon(Icons.broken_image, color: Colors.grey, size: 40),
                         ),
